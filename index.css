@@ -20,11 +20,12 @@ nav{
 }
 footer{
     height: 25px;
-    text-align: center;
     padding: 10 px;
     font-weight: bold;
     background-color:var(--bgcolor) ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: flex;
+    justify-content: center;
 }
 a{
     margin: 20px;
@@ -60,21 +61,21 @@ button{
     max-width: 100vw;
     height: 500px;
     position: relative;
+    align-items: center;
+    justify-content: center;
 
 }
 .round{
     border: 2px solid black;
     height:40vh;
     width:70vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     border-radius:100px;
     background-color: var(--color);
     color: #000;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif' ;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .circle { 
     height: 32px;
